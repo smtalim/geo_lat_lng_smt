@@ -14,13 +14,13 @@ Our simple gem will get the latitude and longitude coordinates for any given add
 Installation
 ------------
 
-$ gem install geo_lat_lng_smt
+    $ gem install geo_lat_lng_smt
 
 
 Usage
 -----
 
-require 'geo_lat_lng_smt'
+    require 'geo_lat_lng_smt'
 
-obj = GeoLatLng.new("1600 Amphitheatre Parkway, Mountain View, CA")
-puts obj.get_coordinates_from_address
+    obj = GeoLatLng.new("1600 Amphitheatre Parkway, Mountain View, CA")
+    puts obj.get_coordinates_from_address
